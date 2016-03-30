@@ -7,8 +7,8 @@
   "permissions": [
     "notifications",
     "storage",
-     "https://corp.netsapiens.com/",
-     "https://netsapiens.zendesk.com/"
+     "https://<API_URL>/",
+     "https://*.zendesk.com/"
   ],
   "options_page": "options.html",
   "background": { "scripts": ["sip-0.7.3.min.js","netsapiens.js","jquery-1.8.3.min.js","background.js"] },
