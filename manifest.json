@@ -1,0 +1,21 @@
+{
+  "name": "NetSapiens UGM App",
+  "version": "0.1",
+  "description":
+    "Chris's cool app",
+  "icons": {"128": "phone-volume.png"},
+  "permissions": [
+    "notifications",
+    "storage",
+     "https://corp.netsapiens.com/",
+     "https://netsapiens.zendesk.com/"
+  ],
+  "options_page": "options.html",
+  "background": { "scripts": ["sip-0.7.3.min.js","netsapiens.js","jquery-1.8.3.min.js","background.js"] },
+  "manifest_version": 2,
+
+  // crbug.com/134315
+  "web_accessible_resources": [
+    "48.png"
+  ]
+}

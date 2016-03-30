@@ -1,0 +1,45 @@
+<!--
+  Copyright (c) 2012 The Chromium Authors. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+
+  Brian Kennish <bkennish@chromium.org>
+
+  An option page for configuring notifications.
+-->
+<!doctype html>
+<html>
+  <head>
+    <title>NetSapiens Screen Pop</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="options.js"></script>
+  </head>
+  <body>
+    <h1>
+      <img src="phone-volume.png" alt="Toast">
+      NetSapiens Extension
+    </h1>
+    <h2>Options</h2>
+    <form id="options">
+      Enable: <input type="checkbox" name="isActivated"  id="isActivated"  checked> 
+      <br>
+      Server:
+      <input type="text" id="server"><br>
+      Username: 
+      <input type="text" id="username"><br>
+      Password: 
+      <input type="password" id="password"><br>
+      
+      Zendesk Hostname:
+      <input type="text" id="zdserver"><br>
+      Zendesk Username: 
+      <input type="text" id="zdusername"><br>
+      Zendesk Password: 
+      <input type="password" id="zdpassword">
+      
+    </form>
+<br>
+    <div id="status"></div>
+<button id="save">Save</button>
+  </body>
+</html>
